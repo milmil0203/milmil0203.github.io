@@ -1,0 +1,12 @@
+.icon{
+    height: 50px;
+    width: 50px;
+    align-items: left;
+    float: left;
+}
+ul {
+    list-style-type: none;
+}
+.left{
+    text-align: left;
+}

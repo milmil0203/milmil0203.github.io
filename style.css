@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(164, 230, 188);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     color: rgb(0, 0, 0);
     width: auto;
@@ -13,9 +13,11 @@ body {
 }
 .item {
     display: inline-block;
+    color:crimson;
     border: 10px black;
     border-radius: 10px;
     text-align: left;
+    padding: auto;
 }
 .dropdown {
     position: relative;
