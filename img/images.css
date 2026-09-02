@@ -4,9 +4,14 @@
     align-items: left;
     float: left;
 }
-ul {
+.ul {
     list-style-type: none;
 }
 .left{
     text-align: left;
+}
+.photo{
+    height:auto;
+    width: auto;
+    margin-right: 500px;
 }
