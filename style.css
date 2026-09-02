@@ -1,6 +1,35 @@
 body {
-    background-color: rgb(48, 155, 212);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     color: white;
+    width: auto;
 
+}
+ul.horizontal {
+    list-style-type:none ;
+    margin:0 ;
+    padding:0 ;
+    overflow: hidden;
+    background-color: darkblue;
+    text-box: inherit;
+    text-align: left;
+    text-overflow: clip;
+}
+.dropdown {
+    position: absolute;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: darkblue;
+    min-width: none;
+    padding: auto;
+    box-shadow: inset;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+a.unique {
+    color:black;
+    text-align: center;
 }
