@@ -14,19 +14,14 @@
 .photo{
     height:auto;
     width: auto;
-    margin-right: 500px;
-    display: inline-block;
-    white-space: nowrap;
-    align-items: center;
-    position: relative;
 }
 .line{
-    display: flexbox;
-    white-space: nowrap;
-    text-align: left;
-    position: sticky;
-    margin-left: 580px;
+    color:blue;
 }
-.inline {
-    display: inline;
+.photo .line {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
