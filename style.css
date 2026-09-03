@@ -47,6 +47,8 @@ table {
     border: 2px solid black;
     padding: 10px;
     background-color:rgb(179, 179, 179);
+    display: flexbox;
+    justify-self: center;
 }
 
 .header {
@@ -55,7 +57,7 @@ table {
 }
 
 .data {
-    border: 1px dotted gray;
+    border: 5px dotted rgb(255, 0, 0);
     box-sizing: border-box;
     background-color: rgba(0, 255, 255, 0.442);
 }
