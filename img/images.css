@@ -17,8 +17,13 @@
     width: auto;
     margin-left: 500px;
 }
-.hi{
+.phototext{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+}
+.line{
+    text-wrap-mode: wrap;
+    word-wrap: normal;
+    text-wrap-style: pretty;
+    max-width: 300px;
 }

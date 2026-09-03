@@ -40,6 +40,8 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    transition-duration: 1s;
+    transition: ease-in-out;
 }
 
 /*table*/
@@ -53,11 +55,9 @@ table {
 
 .header {
     background-color: rgba(0, 0, 255, 0.589);
-    border: 1px dotted gray;
 }
 
 .data {
-    border: 5px dotted rgb(255, 0, 0);
     box-sizing: border-box;
     background-color: rgba(0, 255, 255, 0.442);
 }
