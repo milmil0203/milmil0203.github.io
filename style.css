@@ -42,9 +42,14 @@ body {
     border: 5px black;
 }
 table{
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 10px
 }
 .header{
     background-color: blue;
+    border: 1px dotted gray;
+}
+.data{
+    border: 1px dotted gray;
+    box-sizing: border-box;
 }
