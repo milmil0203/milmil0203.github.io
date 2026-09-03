@@ -10,18 +10,16 @@
 }
 .left{
     text-align: left;
+    max-width: 50px;
 }
 .photo{
     height:auto;
     width: auto;
+    margin-left: 500px;
 }
-.line{
-    color:blue;
-}
-.photo .line {
-    display: inline-flex;
+.hi{
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    flex-wrap: wrap-reverse;
+    width: 1000000px;
 }
