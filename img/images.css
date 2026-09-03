@@ -15,14 +15,18 @@
     height:auto;
     width: auto;
     margin-right: 500px;
-    display: inline;
+    display: inline-block;
     white-space: nowrap;
-    text-align: center;
+    align-items: center;
+    position: relative;
 }
 .line{
-    float: left;
-    display: inline;
+    display: flexbox;
     white-space: nowrap;
-    margin-bottom: 1000px;
-    text-align: center;
+    text-align: left;
+    position: sticky;
+    margin-left: 580px;
+}
+.inline {
+    display: inline;
 }

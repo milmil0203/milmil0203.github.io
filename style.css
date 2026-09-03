@@ -13,7 +13,7 @@ body {
 }
 .item {
     display: inline-block;
-    color:crimson;
+    color:blue;
     border: 10px black;
     border-radius: 10px;
     text-align: left;
@@ -28,7 +28,7 @@ body {
 .dropdown-content {
     display: none;
     position: relative;
-    background-color: rgb(126, 126, 141);
+    background-color: green;
     min-width: 130px;
     padding: auto;
     box-shadow: inset;
@@ -40,4 +40,11 @@ body {
     color:black;
     text-align: center;
     border: 5px black;
+}
+table{
+    border: 1px solid black;
+    padding: 10px
+}
+.header{
+    background-color: blue;
 }
