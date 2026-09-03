@@ -4,7 +4,7 @@ body {
     color: rgb(0, 0, 0);
     width: device-width;
 }
-
+/*navbar*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -42,24 +42,24 @@ body {
     display: block;
 }
 
-.unique {
-    color: black;
-    text-align: center;
-    border: 5px black;
-}
-
 /*table*/
 table {
     border: 2px solid black;
-    padding: 10px
+    padding: 10px;
+    background-color:rgb(179, 179, 179);
 }
 
 .header {
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.589);
     border: 1px dotted gray;
 }
 
 .data {
     border: 1px dotted gray;
     box-sizing: border-box;
+    background-color: rgba(0, 255, 255, 0.442);
 }
+.EC{
+    width: 50px;
+}
+/*----------------------------------------*/
