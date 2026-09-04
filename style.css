@@ -64,4 +64,16 @@ table {
 .EC{
     width: 50px;
 }
-/*----------------------------------------*/
+
+/*progress bar*/
+.outerbar{
+    position: absolute;
+    width: 100%;
+    background-color: blue;
+    height: 20px;
+    max-width: 560.91px;
+    align-self: center;
+    display: flexbox;
+    justify-self: center;
+    margin-top: 100px;
+}
