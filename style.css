@@ -2,7 +2,9 @@ body {
     background-color: white;
     text-align: center;
     color: rgb(0, 0, 0);
-    width: device-width;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 /*navbar*/
 .navbar {
@@ -51,6 +53,8 @@ table {
     background-color:rgb(179, 179, 179);
     display: flexbox;
     justify-self: center;
+    max-width: 560.91px;
+    align-self: center;
 }
 
 .header {
@@ -67,13 +71,64 @@ table {
 
 /*progress bar*/
 .outerbar{
-    position: absolute;
+    position: relative;
     width: 100%;
-    background-color: blue;
-    height: 20px;
+    background-color: rgb(78, 78, 90);
+    height: 30px;
     max-width: 560.91px;
     align-self: center;
     display: flexbox;
     justify-self: center;
-    margin-top: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.innerbar{
+    background-color: rgb(17, 14, 224);
+    width: 1%;
+    align-self: center;
+    display: flex;
+    justify-self: left;
+    height: 25px;
+    margin-top: 2.5px;
+    border-radius: 5px;
+    margin-left: 3px;
+    max-width: 560.91;
+}
+
+.proline{
+    background-color: red;
+    position: absolute;
+    margin-left: 420.6825px;
+    top: 0;
+    height: 100%;
+    width: 3px;
+}
+
+
+/*footer*/
+footer{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-top: auto;
+    background-color: rgb(163, 163, 163);
+    width: auto;
+}
+.footer-links{
+    display: flex;
+    gap: 1rem;
+    justify-self: left;
+}
+footer img{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-self: right;
+}
+/*--*/
+video{
+    max-width: 1000px;
+    display: flex;
+    align-self: center;
 }
