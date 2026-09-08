@@ -132,3 +132,9 @@ video{
     display: flex;
     align-self: center;
 }
+ol {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: left;
+    justify-self: center;
+}
