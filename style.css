@@ -21,7 +21,7 @@ nav {
 
   padding: 10px 14px;
 
-  background: rgba(137, 137, 137, 0.85);
+  background: rgba(86, 202, 92, 0.85);
   border: 1px solid #e5e5e5;
   border-radius: 12px;
 
@@ -35,13 +35,24 @@ nav {
   align-items: center;
   gap: 10px;
 }
-.item {
-  display: inline-block;
+.nav-link {
+  display: flex;
+  align-items: center;
+
+  padding: 8px 12px;
+
   color: #2f2f2f;
-  border: 10px black;
-  border-radius: 10px;
-  text-align: left;
-  padding: auto;
+  text-decoration: none;
+
+  border-radius: 8px;
+
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
+}
+.nav-link:hover {
+  background: #3a8e2f;
+  color: #111;
 }
 nav > .nav-left > a {
   color: #2f2f2f;
@@ -54,16 +65,19 @@ nav > .nav-left > a {
 .nav-dropdown {
   position: relative;
 }
+.nav-dropdown[open] > summary {
+  background: #3a8e2f;
+  color: #111;
+}
+
 .nav-dropdown summary {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-
-    margin-left: 25px;
-    color: #2f2f2f;
-
-    list-style: none;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 25px;
+  color: #2f2f2f;
+  list-style: none;
+  cursor: pointer;
 }
 .nav-dropdown summary::-webkit-details-marker {
   display: none;
@@ -83,7 +97,7 @@ nav > .nav-left > a {
   width: 180px;
   padding: 6px;
 
-  background: #ffffff;
+  background: rgba(86, 202, 92, 0.85);
   border: 1px solid #e5e5e5;
   border-radius: 10px;
 
@@ -110,7 +124,7 @@ nav > .nav-left > a {
     color 0.15s ease;
 }
 .dropdown-menu a:hover {
-  background: #f2f2ef;
+  background: #3a8e2f;
   color: #111;
 }
 
