@@ -1,43 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width" , initial-scale="1.0" />
+    <title>my profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width", initial-scale="1.0">
-    <title>
-        my profile
-    </title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        
 
-<body>
-    <nav class="navbar">
-        <div class="current"><p class="item"><a href="index.html">home</a></p></div>
-        <p class="item">
-        <div class="dropdown">blog
-            <div class="dropdown-content">
-                <a href="/blog/posts-direction/direction.html" class="unique">direction</a>
-            </div>
-            <div class="dropdown-content">
-                <a href="/blog/posts-goals/goals.html" class="unique">goals</a>
-            </div>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        
 
-        </div>
-        </p>
-        <p class="item"><a href="about.html">about me </a></p>
-        <p class="item"><a href="why-it.html">why it?</a></p>
-        <p class="item"><a href="dashboard.html">dashboard</a></p>
+        <details class="nav-dropdown">
+          <summary class="nav-link">
+            Blog
+            <span class="dropdown-arrow">⌄</span>
+          </summary>
+
+          <div class="dropdown-menu">
+            <a href="/blog/posts-direction/direction.html">direction</a>
+            <a href="/blog/posts-goals/goals.html">Goals</a>
+          </div>
+        </details>
+        <a href="why-it.html" class="nav-link">Why IT?</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+      </div>
     </nav>
-    <h1>
-        my profile
-    </h1>
+    <h1>my profile</h1>
     <p>this is milans profile</p>
     <footer>
-        <div class="footer-links">
-            <!--i wanna get links here and the logo on the right but if i cant just delete this div-->
-        </div>
-        <a href="https://hz.nl"><img src="/img/hzlogo_groot.png"></a>
+      <div class="footer-links">
+        <!--i wanna get links here and the logo on the right but if i cant just delete this div-->
+      </div>
+      <a href="https://hz.nl"><img src="/img/hzlogo_groot.png" /></a>
     </footer>
-</body>
-
+  </body>
 </html>

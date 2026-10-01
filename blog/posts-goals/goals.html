@@ -11,26 +11,33 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <p class="item"><a href="/index.html">home</a></p>
-        <p class="item">
-        <div class="dropdown">blog
-            <div class="dropdown-content" class="current">
-                <a href="/blog/posts-direction/direction.html">direction</a>
-            </div>
-            <div class="dropdown-content">
-                <a href="/blog/posts-goals/goals.html">goals</a>
-            </div>
+    <nav>
+      <div class="nav-left">
+        
 
-        </div>
-        </p>
-        <p class="item"><a href="/about.html">about me </a></p>
-        <p class="item"><a href="/why-it.html">why it?</a></p>
-        <p class="item"><a href="/dashboard.html">dashboard</a></p>
+        <a href="/index.html" class="nav-link">Home</a>
+        <a href="/about.html" class="nav-link">About</a>
+        
+
+        <details class="nav-dropdown">
+          <summary class="nav-link">
+            Blog
+            <span class="dropdown-arrow">⌄</span>
+          </summary>
+
+          <div class="dropdown-menu">
+            <a href="/blog/posts-direction/direction.html">direction</a>
+            <a href="/blog/posts-goals/goals.html">Goals</a>
+          </div>
+        </details>
+        <a href="/why-it.html" class="nav-link">Why IT?</a>
+        <a href="/dashboard.html" class="nav-link">Dashboard</a>
+      </div>
     </nav>
     <h1>My goals</h1>
     <img src="/img/goal.jpg" style="display: flex; align-self: center; size: 10%;">
     <p>this is my goal right now</p>
+    <!--i have the swot analasys but idk how to implemetn it just yet-->
     <footer>
         <div class="footer-links">
             <!--i wanna get links here and the logo on the right but if i cant just delete this div-->
