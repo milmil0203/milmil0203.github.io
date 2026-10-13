@@ -196,11 +196,6 @@ footer {
   background-color: rgb(163, 163, 163);
   width: auto;
 }
-.footer-links {
-  display: flex;
-  gap: 1rem;
-  justify-self: left;
-}
 footer img {
   width: auto;
   height: 50px;
