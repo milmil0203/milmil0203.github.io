@@ -189,12 +189,15 @@ table {
 
 /*footer*/
 footer {
+  bottom: 0;
+  position: absolute;
+  margin-top: 20px;
+  clear: both;
   display: flex;
   align-items: center;
   padding: 1rem;
-  margin-top: auto;
   background-color: rgb(163, 163, 163);
-  width: auto;
+  width: 98%;
 }
 footer img {
   width: auto;
