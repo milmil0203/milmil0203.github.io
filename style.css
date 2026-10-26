@@ -188,22 +188,21 @@ table {
 }
 
 /*footer*/
+/* Footer */
 footer {
-  bottom: 0;
-  position: absolute;
-  margin-top: 20px;
-  clear: both;
+  margin-top: auto;
   display: flex;
   align-items: center;
   padding: 1rem;
   background-color: rgb(163, 163, 163);
-  width: 98%;
+  width: 100%;
+  box-sizing: border-box;
 }
+
 footer img {
   width: auto;
   height: 50px;
-  display: flex;
-  justify-self: right;
+  margin-left: auto;
 }
 /*--*/
 video {
